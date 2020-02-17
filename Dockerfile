@@ -17,6 +17,5 @@ RUN apt-get update && \
     pip install detect-secrets
 
 WORKDIR /usr/src/app
-# ENTRYPOINT ["detect-secrets", "--verbose"]
 ENTRYPOINT ["detect-secrets", "--verbose"]
 
